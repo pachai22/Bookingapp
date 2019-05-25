@@ -1,2 +1,70 @@
 # Bookingapp
-this app enables people to book railway tickets on IRCTC
+this app enables people to movie ticket booking app 
+REQUIREMENTS- MOVIE TICKET BOOKING 
+
+   	 1. Language
+           •  Tamil
+   	       •  English
+  	       •  Hindi
+	         •  Telugu
+	  2. Login phase
+     	   •  Login
+		        o Google
+		        o Facebook
+	       •  Sing up
+		        o First Name
+		        o Last Name
+		        o Email id
+		        o Password
+		        o Mobile no
+		        o Singup Now
+	       •	Skip
+	  3. Location
+	       • Select city 
+  	     • Change location
+	  4. Movie Details
+	       • Now showing
+            Filters
+                o Popularity
+		            o Release date
+		            o Availability
+    	      Language
+	            	o Tamil
+    	          o English
+	            	o Hindi
+	       • Up Coming
+	   5. Rating & Reviews
+     		 • Likes
+		     • View Rating of Movie
+  	  	 • Rate the Movies
+        Synopsis
+		     • Details about movie
+		     • Audience reviews
+		     • App review
+  	  6. Book Ticket
+    		Booking ticket with
+    		 • Tamil 2d or 3d    Glass
+		     • English 2d or 3d Glass
+		     • Hindhi 2d or 3d  Glass
+	    7. Theater
+		     • Date
+		     • Theater list
+		     • Select available seat
+	     	 • Type of seats
+		     • How many seats
+		     • Select food items
+  	   8. Payments Scheme
+		     • Pay
+		 	       o Ticket price
+			       o 3d glass pay
+		     • Schemes
+			       o	On Spot pay
+			       o	Credit/Debit card
+             o	Mobile wallets
+             o	Net banking 
+             o	Gift vouchers/offers
+
+         •	Payment Login
+             o	Sing up 
+             o	Login
+             o	Temporary login
