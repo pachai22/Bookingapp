@@ -1,6 +1,6 @@
 # Bookingapp
 this app enables people to movie ticket booking app 
-REQUIREMENTS- MOVIE TICKET BOOKING 
+REQUIREMENTS- MOVIE TICKET BOOKING app
 
    	 1. Language
            •  Tamil
