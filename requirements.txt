@@ -1,5 +1,5 @@
 REQUIREMENTS- MOVIE TICKET BOOKING 
-    
+Special feature:can book an ticket without creating account in app    
    
    	 1. Language
            •  Tamil
