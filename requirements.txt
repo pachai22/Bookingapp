@@ -1,6 +1,6 @@
 REQUIREMENTS- MOVIE TICKET BOOKING 
     
-   
+   Importants
    	 1. Language
            •  Tamil
    	   •  English
