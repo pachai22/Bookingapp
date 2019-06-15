@@ -8,6 +8,6 @@ public class FlimhubApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FlimhubApplication.class, args);
-	}
+	     }
 
 }

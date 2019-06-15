@@ -21,24 +21,26 @@ import java.util.Optional;
 public class LocationController {
 
     @Autowired
-    private LocationRepository locationRepository;
+    private LocationService locationService;
 
     @RequestMapping(value="/locations ", method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public List<Location> getAllLocation(){
-        return (List<Location>) locationRepository.findAll();
+    public List<Location> getLocations()
+    {
+        return (List<Location>) locationService.getAllLocations();
     }
 
     @RequestMapping(value="/locations ", method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<Location> createLocation(@RequestBody Location location){
-           Location createdLocation = locationRepository.save(location);
+           Location createdLocation = locationService.createLocation(location);
            return Optional.ofNullable(createdLocation)
+
                     .map(u -> ResponseEntity.ok().body(u))
                     .orElse (ResponseEntity.notFound().build());
         }
 
-    @RequestMapping(value="/locations ", method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequestMapping(value="/locations ", method = RequestMethod.PUT,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<Location> CreateLocation(@RequestBody Location location){
-        Location createdLocation = locationRepository.save(location);
+        Location createdLocation = locationService.createLocation(location);
         return Optional.ofNullable(createdLocation)
                 .map(u -> ResponseEntity.ok().body(u))
                 .orElse (ResponseEntity.notFound().build());
