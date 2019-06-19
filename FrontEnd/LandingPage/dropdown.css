@@ -1,0 +1,10 @@
+.nav{
+    position: relative;
+    width: 700px;
+    margin: 50px auto;
+}
+
+.dropdown{
+    display:flex;
+    
+}

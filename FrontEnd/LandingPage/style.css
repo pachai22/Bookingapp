@@ -1,11 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
 body{
+  background-image: url(img-3.jpg);
     background-color: maroon;
+    background-size: cover;
 }
 
 .header{
@@ -14,7 +17,7 @@ body{
     background: #7c7676; 
 }
 .navbar{
-    font-family: ;
+    font-family: sans-serif;
     position: absolute;
     font-size:16px;
     margin: 0;
@@ -66,7 +69,7 @@ body{
 
 .searchTerm {
   width: 100%;
-  border: 3px solid rgb(6, 11, 12);
+  border: 3px solid rgb(233, 195, 73);
   border-right: none;
   padding: 5px;
   height: 36px;
@@ -76,15 +79,16 @@ body{
 }
 
 .searchTerm:focus{
-  color: rgb(10, 21, 22);
+  color: rgb(224, 13, 13);
 }
 
 .searchButton {
   width: 40px;
   height: 36px;
   top:-300px;
-  border: 1px solid rgb(11, 24, 26);
-  background: rgb(9, 28, 31);
+  border: 2px solid rgb(233, 222, 64);
+  background: wheat;
+  
   text-align: left;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -100,4 +104,8 @@ body{
   top: 22%;
   left: 90%;
   transform: translate(-90%, -50%);
+}
+
+.fa  i:hover{
+  color: rgba(15, 255, 15, 0.26);
 }
