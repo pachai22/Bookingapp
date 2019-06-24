@@ -1,5 +1,5 @@
 title{
-    font-family: 'Lucida Sans';
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
@@ -13,11 +13,12 @@ body{
 }
 
 .signupbox{
+    
     width: 320px;
-    height: 580px;
+    height: 670px;
     background:rgb(37, 19, 19);
     color: #fff;
-    top: 59%;
+    top: 52%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -28,6 +29,7 @@ body{
    
 
 .signup{
+    
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -46,19 +48,25 @@ h1{
 }
 
 .signupbox p{
-    margin: 0;
+
+    margin: 5;
     padding: 0 ;
     font-weight: bold;
 
 }
 
-.signupbox input{
+.signupbox button{
     width: 100%;
+    margin-top: 30px;
     margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .signupbox input[type="text"], input[type="password"]
-{
+{    
+    margin-top: 0;
     border:none;
     border-bottom:  1px solid #fff;
     background: transparent;
@@ -67,7 +75,7 @@ h1{
     color: #fff;
     font-size: 16px;
 }
-.signupbox input[type="submit"]
+.signupbox button[type="submit"]
 {
    border: none;    
    outline: none;
@@ -79,7 +87,7 @@ h1{
 
 } 
 
-.signupbox input[type="submit"]:hover
+.signupbox button[type="submit"]:hover
 {
    cursor: pointer;
    background:green;
@@ -87,14 +95,14 @@ h1{
 
 }
 
-.signupbox a{
+.signupbox button{
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
 }
 
-.signupbox a:hover
+.signupbox button:hover
 {
     color: #ffc107;
 }

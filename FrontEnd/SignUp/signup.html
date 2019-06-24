@@ -1,7 +1,8 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
     <title>SignUp Form</title>
+    
     <linK rel= "stylesheet" type="text/css" href="style.css">
     
 </body>
@@ -20,7 +21,7 @@
            <input type="text" name="" id="UserId" placeholder="Enter Userid">
            <p>Password</p>
            <input type="password" name="" id="Password" placeholder="Enter Password">
-           <button type="button" onclick="handleClick()">Submit</button>
+           <button type="button" onclick="handleClick()" style="font-size: 18px; font-family:Georgia, 'Times New Roman', Times, serif; color: #fff; background-color: rgb(197, 22, 22) ">Submit</button>
          </form>
         </div>   
       <script type="text/javascript">
@@ -32,7 +33,7 @@
               const mobileno=document.getElementById('MobileNo').value;
               const userid=document.getElementById('UserId').value;
               const password=document.getElementById('Password').value;
-              const proxyurl = "https://cors-anywhere.herokuapp.com/";
+             
         
               const url = 'http://localhost:8080/api/user';
 
@@ -49,7 +50,7 @@
               };
 
               console.log('' + JSON.stringify(data));
-              fetch(url+proxyurl, {
+              fetch(url, {
                   method: 'POST',
                   headers:{
                       'Content-Type': 'application/json',
