@@ -98,7 +98,7 @@ body{
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 50%;
+  width: 20%;
   height: 36px;
   position: absolute;
   top: 22%;
@@ -119,6 +119,7 @@ body {
 
 
 .flip-card {
+  margin-top: 15px;
   background-color: transparent;
   width: 300px;
   height: 300px;
@@ -161,4 +162,8 @@ body {
   display:grid;
   position: relative;
   padding-bottom: 10px;
+}
+
+.col-sm-3{
+    margin-top: 45px;
 }
